@@ -109,11 +109,11 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Code.ReleaseServices.Core\octo-nuget.core.csproj">
+    <ProjectReference Include="..\octo-nuget.core\octo-nuget.core.csproj">
       <Project>{52738A3E-9031-4AFD-AE1A-70986C40A647}</Project>
       <Name>octo-nuget.core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Code.ReleaseServices.Windows\octo-nuget.core.windows.csproj">
+    <ProjectReference Include="..\octo-nuget.core.windows\octo-nuget.core.windows.csproj">
       <Project>{A6BC9A17-E3E9-4A3A-8D14-7FB0E005376B}</Project>
       <Name>octo-nuget.core.windows</Name>
     </ProjectReference>

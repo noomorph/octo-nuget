@@ -51,7 +51,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Code.ReleaseServices.Core\octo-nuget.core.csproj">
+    <ProjectReference Include="..\octo-nuget.core\octo-nuget.core.csproj">
       <Project>{52738A3E-9031-4AFD-AE1A-70986C40A647}</Project>
       <Name>octo-nuget.core</Name>
     </ProjectReference>
