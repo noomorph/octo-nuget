@@ -1,4 +1,4 @@
-namespace Code.ReleaseServices.Core.Models
+namespace OctoNuget.Core.Models
 {
     public class FeedConfiguration
     {

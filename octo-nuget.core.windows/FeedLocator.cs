@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Code.ReleaseServices.Core.Configuration;
-using Code.ReleaseServices.Core.Models;
-using Code.ReleaseServices.Core.Services;
+using OctoNuget.Core.Configuration;
+using OctoNuget.Core.Models;
+using OctoNuget.Core.Services;
 
-namespace Code.ReleaseServices.Windows
+namespace OctoNuget.Core.Windows
 {
     public class FeedLocator : IFeedLocator
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Code.ReleaseServices.Core.Helpers
+namespace OctoNuget.Core.Helpers
 {
     public static class Base64Extensions
     {

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Code.ReleaseServices.Core.Helpers;
-using Code.ReleaseServices.Core.Models;
-using Code.ReleaseServices.Core.Services;
+using OctoNuget.Core.Helpers;
+using OctoNuget.Core.Models;
+using OctoNuget.Core.Services;
 
-namespace Code.ReleaseServices.Windows
+namespace OctoNuget.Core.Windows
 {
     public class ReleaseService : IReleaseService
     {

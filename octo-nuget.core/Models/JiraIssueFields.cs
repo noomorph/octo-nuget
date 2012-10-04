@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace Code.ReleaseServices.Core.Models
+namespace OctoNuget.Core.Models
 {
     public class JiraIssueFields
     {
@@ -8,5 +8,14 @@ namespace Code.ReleaseServices.Core.Models
         public string Version { get; set; }
 
         public JiraItem Project { get; set; }
+
+        public JiraItem Parent { get; set; }
+
+        public string Summary { get; set; }
+
+        [JsonProperty("issuetype")]
+        public JiraItem IssueType { get; set; }
+
+        public string Description { get; set; }
     }
 }

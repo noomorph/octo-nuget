@@ -1,8 +1,7 @@
-namespace Code.ReleaseServices.Core.Models
+namespace OctoNuget.Core.Models
 {
     public class JiraIssue : JiraItem
     {
-        public string Summary { get; set; }
         public JiraIssueFields Fields { get; set; }
     }
 }

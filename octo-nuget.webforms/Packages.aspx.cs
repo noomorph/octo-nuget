@@ -1,10 +1,7 @@
 using System;
-using System.Web;
-using System.Web.UI;
-using Code.ReleaseServices;
-using Code.ReleaseServices.Core.Services;
+using OctoNuget.Core.Services;
 
-namespace Code.Services
+namespace OctoNuget.WebForms
 {
     public partial class Packages : System.Web.UI.Page
     {

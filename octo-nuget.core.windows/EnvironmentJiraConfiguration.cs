@@ -1,7 +1,7 @@
 using System;
-using Code.ReleaseServices.Core.Configuration;
+using OctoNuget.Core.Configuration;
 
-namespace Code.ReleaseServices.Windows
+namespace OctoNuget.Core.Windows
 {
     public class EnvironmentJiraConfiguration : IJiraConfiguration
     {
@@ -29,6 +29,11 @@ namespace Code.ReleaseServices.Windows
         public string JiraToken
         {
             get { return AssertAndGetVariable("crs_jira_token"); }
+        }
+
+        public long ReleasePackageTypeId
+        {
+            get { return long.Parse(AssertAndGetVariable("crs_jira_rpkg_id")); }
         }
     }
 }

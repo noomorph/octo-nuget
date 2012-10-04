@@ -1,1 +1,1 @@
-<%@ Application Inherits="Code.Services.Global" %>
+<%@ Application Inherits="OctoNuget.WebForms.Global" %>

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Code.ReleaseServices.Core.Models;
+using OctoNuget.Core.Models;
 
-namespace Code.ReleaseServices.Core.Helpers
+namespace OctoNuget.Core.Helpers
 {
     public class PackageComparer : IEqualityComparer<Package>
     {

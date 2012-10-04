@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Code.ReleaseServices.Core.Models;
+using OctoNuget.Core.Models;
 
-namespace Code.ReleaseServices.Core.Configuration
+namespace OctoNuget.Core.Configuration
 {
     public interface IFeedsConfiguration
     {

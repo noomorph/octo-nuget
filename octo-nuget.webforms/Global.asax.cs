@@ -1,16 +1,11 @@
 using System;
-using System.Collections;
-using System.ComponentModel;
-using System.Web;
-using System.Web.SessionState;
 using Autofac;
 using Autofac.Integration.Web;
-using Code.ReleaseServices;
-using Code.ReleaseServices.Core.Configuration;
-using Code.ReleaseServices.Core.Services;
-using Code.ReleaseServices.Windows;
+using OctoNuget.Core.Configuration;
+using OctoNuget.Core.Services;
+using OctoNuget.Core.Windows;
 
-namespace Code.Services
+namespace OctoNuget.WebForms
 {
     public class Global : System.Web.HttpApplication, IContainerProviderAccessor
     {

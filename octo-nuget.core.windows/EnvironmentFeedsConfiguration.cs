@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Code.ReleaseServices.Core.Configuration;
-using Code.ReleaseServices.Core.Models;
+using OctoNuget.Core.Configuration;
+using OctoNuget.Core.Models;
 
-namespace Code.ReleaseServices.Windows
+namespace OctoNuget.Core.Windows
 {
     public class EnvironmentFeedsConfiguration : IFeedsConfiguration
     {

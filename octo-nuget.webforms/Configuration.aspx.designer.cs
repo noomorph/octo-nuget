@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Code.Services {
+namespace OctoNuget.WebForms {
     
     
     public partial class Configuration {

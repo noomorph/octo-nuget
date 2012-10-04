@@ -3,9 +3,9 @@ using System.Diagnostics;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Text.RegularExpressions;
-using Code.ReleaseServices.Core.Services;
+using OctoNuget.Core.Services;
 
-namespace Code.ReleaseServices.Core.Models
+namespace OctoNuget.Core.Models
 {
     [DataContract]
     public class Package

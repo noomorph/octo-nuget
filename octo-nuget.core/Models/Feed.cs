@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Code.ReleaseServices.Core.Services;
+using OctoNuget.Core.Services;
 
-namespace Code.ReleaseServices.Core.Models
+namespace OctoNuget.Core.Models
 {
     public class Feed
     {

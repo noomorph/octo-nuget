@@ -1,1 +1,1 @@
-<%@ WebHandler Language="C#" Class="Code.Services.Jira" %>
+<%@ WebHandler Language="C#" Class="OctoNuget.WebForms.Jira" %>

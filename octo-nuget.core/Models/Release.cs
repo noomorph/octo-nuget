@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Code.ReleaseServices.Core.Models
+namespace OctoNuget.Core.Models
 {
     public class Release : IComparable, IComparable<Release>, IEquatable<Release>
     {
