@@ -30,10 +30,5 @@ namespace OctoNuget.Core.Windows
         {
             get { return AssertAndGetVariable("crs_jira_token"); }
         }
-
-        public long ReleasePackageTypeId
-        {
-            get { return long.Parse(AssertAndGetVariable("crs_jira_rpkg_id")); }
-        }
     }
 }

@@ -4,6 +4,5 @@ namespace OctoNuget.Core.Configuration
     {
         string JiraHost { get; }
         string JiraToken { get; }
-        long ReleasePackageTypeId { get; }
     }
 }

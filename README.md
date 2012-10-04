@@ -17,6 +17,8 @@ Setup your per-machine environment variables:
 
 - CRS\_QA\_PUBLIC=C:\NuGet\public\qa
 
+- CRS\_QA\_PUBLIC=C:\NuGet\public\qa
+
 If you want to set up more environments, use the following pattern:
 *CRS\_{ENVIRONMENT}_(PRIVATE|PUBLIC)*
 
@@ -39,5 +41,9 @@ deletes project.major.minor.hotfix.build.nupkg from all public\* folders (per en
 - ?action=purge&issue=TST-44
 
 the same - but also deletes from private\* folders also
+
+- ?action=create-release&delivery=TST-45&version=1.2.3.1
+
+create Release Package sub-ticket with specified version for specified Delivery parent ticket
 
 

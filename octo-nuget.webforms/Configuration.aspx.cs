@@ -13,14 +13,7 @@ namespace OctoNuget.WebForms
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            var settings = new ArrayList
-                               {
-                                   new {Key = "JIRA HOST", Value = JiraConfiguration.JiraHost},
-                                   new {
-                                           Key = "JIRA Release Package type id",
-                                           Value = JiraConfiguration.ReleasePackageTypeId
-                                       }
-                               };
+            var settings = new ArrayList { new {Key = "JIRA HOST", Value = JiraConfiguration.JiraHost} };
             settings.AddRange(
                 FeedsConfiguration.Feeds.Select(
                     config => new {Key = config.Id.ToUpper() + " PRIVATE PATH", Value = config.PrivatePath}).OrderBy(
